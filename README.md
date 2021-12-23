@@ -9,4 +9,4 @@
 I've added a collection of viruses made by me
 
 If you have some suggestions write me
-[mailto](mailto:kekkopdev@gmail.com) 
+[my email](mailto:kekkopdev@gmail.com) 
