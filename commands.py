@@ -96,7 +96,8 @@ def help(self,command='help'):
 
 def open_app(self, app_name):
     current_dir = os.getcwd()
-    os.chdir('C:/Users/Francesco/Desktop/Console3.0/apps')
+    path = current_dir+'\\apps'
+    os.chdir(str(path))
     #print(self)
     #print(app_name)
     try:
