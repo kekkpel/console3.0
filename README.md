@@ -9,4 +9,4 @@
 I've added a collection of viruses made by me
 
 If you have some suggestions write me
-<a href = "kekko: kekkopdev@gmail.com">Send Email</a>
+[mailto](mailto:kekkopdev@gmail.com) 
