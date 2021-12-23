@@ -11,7 +11,7 @@ must have these python packages installed
 
 ### How to install pyautogui
 make sure that pip works correctly, then open cmd and type
-'''
+'''Python
 pip install pyautogui
 '''
 
