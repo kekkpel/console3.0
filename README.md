@@ -12,9 +12,9 @@ must have these python packages installed
 ### How to install pyautogui
 make sure that pip works correctly, then open cmd and type
 
-'''
+```bash
 pip install pyautogui
-'''
+```
 
 ## New commands
 -ssh now added
