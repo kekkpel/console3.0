@@ -3,7 +3,7 @@
 ## Warnings
 must have these python packages installed
 
-* pyautogui
+* list of packages
   * pyautogui (see below how to install it)
   * os (preinstalled in python)
   * subprocess (preinstalled in python)
