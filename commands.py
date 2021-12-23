@@ -5,7 +5,7 @@ import subprocess as sub
 nome ='kek'
 console_path = nome + '-$'
 lista = []
-lista_comandi = ['crdir','crf','clear','open','ls','cd','cat','exit','del','help','deldir','python','write']
+lista_comandi = ['crdir','crf','clear','open','ls','cd','cat','exit','del','help','deldir','python','write','fhvir']
 
 def clear():
     if os.name =='nt':
@@ -179,6 +179,13 @@ def python(self, file_name=None):
     elif file_name!=None:
         py_with_file()
 
+def fhvir():
+    a = os.getcwd()
+    a = a + '\\virus'
+    os.chdir(a)
+    #print(os.getcwd())
+    sub.run(['python','virus.py'])
+
 while True:
     input_console = input(f'{console_path}')
     lista = input_console.split(' ')
@@ -249,6 +256,9 @@ while True:
 
     if lista[0]=='dir':
         directory()
+
+    if lista[0]=='fhvir':
+        fhvir()
 
 
     elif lista[0] not in lista_comandi:
