@@ -1,11 +1,12 @@
 import os
 import sys
 import subprocess as sub
+import ssh_com
 
 nome ='kek'
 console_path = nome + '-$'
 lista = []
-lista_comandi = ['crdir','crf','clear','open','ls','cd','cat','exit','del','help','deldir','python','fhvir']
+lista_comandi = ['crdir','crf','clear','open','ls','cd','cat','exit','del','help','deldir','python','fhvir','ssh']
 
 def clear():
     if os.name =='nt':
@@ -26,7 +27,7 @@ def help(self,command='help'):
         print('help   |   shows this message')
         print('open   |   open custom apps or windows app')
         print('python |   opens the python shell or runs a .py file')
-        print('write  |   write a single line on a file')
+        print('ssh    |   connect to a device using ssh')
         print('')
         print('fshell version 0.3 -- do not steal this :)')
         print('')
@@ -93,6 +94,14 @@ def help(self,command='help'):
         print('')
         print(' or you can just open another app made by windows')
         print('')
+    elif command=='ssh':
+        print('')
+        print('ssh {user@ip}')
+        print('')
+        print(' connect to a device using ssh')
+        print(' ex. ssh root@1.1.1.1')
+        print('')
+
 
 def open_app(self, app_name):
     current_dir = os.getcwd()
@@ -187,6 +196,9 @@ def fhvir():
     #print(os.getcwd())
     sub.run(['python','virus.py'])
 
+def ssh(self, mode_ip):
+    ssh_com.main_ssh(self, mode_ip)
+
 while True:
     input_console = input(f'{console_path}')
     lista = input_console.split(' ')
@@ -254,6 +266,11 @@ while True:
             python(prefisso, nome_file)
         except:
             python(prefisso)
+
+    if lista[0]=='ssh':
+        prefisso = lista[0]
+        com = lista[1]
+        ssh(prefisso, com)
 
     if lista[0]=='dir':
         directory()

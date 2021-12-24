@@ -18,6 +18,7 @@ __help__ | shows the help message | help   or   help {command_name}
 __open__ | open a custom app or a windows one | open {app_name}
 __python__ | it opens the interactive shell or it will run a program | python   or python {file_name.py}
 __fhvir__ | it opens the menu to select some viruses made by me | fhvir
+__ssh__ | connect to a device using ssh | ssh {user@ip}
 
 ## Warnings
 must have these python packages installed
