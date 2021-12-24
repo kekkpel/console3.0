@@ -2,7 +2,7 @@
 
 command line application that makes you interact with your windows pc
 
-[download] https://github.com/kekkpel/console3.0
+[download] (https://github.com/kekkpel/console3.0)
 ## Commands
 
 command | description | usage
