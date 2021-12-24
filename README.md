@@ -5,7 +5,7 @@ command line application that makes you interact with your windows pc
 ## Commands
 
 command | description | usage
-:--- | ---:
+:--- | ---: | ---: 
 __cat__ | view all the file from the shell
 __cd__ | changes directory
 __clear__ | clear the screen
