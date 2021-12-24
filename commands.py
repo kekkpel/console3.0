@@ -8,6 +8,9 @@ console_path = nome + '-$'
 lista = []
 lista_comandi = ['crdir','crf','clear','open','ls','cd','cat','exit','del','help','deldir','python','fhvir','ssh']
 
+global program_dir
+program_dir = os.getcwd()
+
 def clear():
     if os.name =='nt':
         os.system('cls')
@@ -105,8 +108,9 @@ def help(self,command='help'):
 
 def open_app(self, app_name):
     current_dir = os.getcwd()
-    path = current_dir+'\\apps'
+    path = program_dir+'\\apps'
     os.chdir(str(path))
+    #print(os.getcwd())
     #print(self)
     #print(app_name)
     try:
