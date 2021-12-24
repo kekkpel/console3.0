@@ -45,6 +45,8 @@ pip install pyautogui
 ## News
 I've added a collection of viruses made by me (now there is only a simple rickroll)
 
+fixed some issues related to the custom apps
+
 ## Contacts
 If you have some suggestions write me
 [my email](mailto:kekkopdev@gmail.com)
