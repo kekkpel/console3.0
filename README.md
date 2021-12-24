@@ -4,28 +4,19 @@ command line application that makes you interact with your windows pc
 
 ## Commands
 
+command | description | usage
+:--- | ---:
 __cat__ | view all the file from the shell
-:--- | ---:
 __cd__ | changes directory
-:--- | ---:
 __clear__ | clear the screen
-:--- | ---:
 __crdir__ | create a dir
-:--- | ---:
 __crf__ | create a file
-:--- | ---:
 __del__ | delete a file
-:--- | ---:
 __deldir__ | delete a dir
-:--- | ---:
 __exit__ | exit the program
-:--- | ---:
 __help__ | shows the help message
-:--- | ---:
 __open__ | open a custom app or a windows one
-:--- | ---:
 __python__ | it opens the interactive shell or it will run a program
-:--- | ---:
 __fhvir__ | it opens the menu to select some viruses made by me
 
 ## Warnings
