@@ -15,6 +15,8 @@ def main_viruses():
         input_vir = input("virus-$ ")
         if input_vir=='0':
             rick.main_rickroll()
+        if input_vir=='exit':
+            break
 
 
 main_viruses()

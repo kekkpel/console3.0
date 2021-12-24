@@ -5,7 +5,7 @@ import subprocess as sub
 nome ='kek'
 console_path = nome + '-$'
 lista = []
-lista_comandi = ['crdir','crf','clear','open','ls','cd','cat','exit','del','help','deldir','python','write','fhvir']
+lista_comandi = ['crdir','crf','clear','open','ls','cd','cat','exit','del','help','deldir','python','fhvir']
 
 def clear():
     if os.name =='nt':
